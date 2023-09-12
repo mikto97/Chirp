@@ -1,7 +1,5 @@
-﻿using System.IO; 
-using System.Collections.Generic;
-using System; 
-using System.Text;
+﻿using System.Text;
+using records;
 
 class Program
 {
@@ -64,8 +62,11 @@ class Program
 
     static void Write(string filename, string msg)
     {
+        var id = WriteUnixTime();
         var user = Environment.UserName;
-        // you need to figure this out my niggah
+        var new_cheep = new Cheep(user, msg, WriteUnixTime().ToString(), id);
+
+
         StringBuilder sb = new StringBuilder();
         sb.Append(user);
         sb.Append("," + msg);
@@ -94,6 +95,9 @@ class Program
         
         return dtDateTime.ToString();
     }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
+    }
 }
-
-
