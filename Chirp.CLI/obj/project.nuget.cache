@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1rM8G/6s5rDMOLSDmqpIwjbG6o7+FXsXy7mtZ1jaQMgeOFwiIqgmUaZziyEWW/XKHzRl7nnNqmo/y8EXeT27A==",
+  "dgSpecHash": "aME7nxysfoMw5EtdZoa2WEVLP8GUgNyewoYj6sZ3B2a6gtT9wYqAoZv/It7oe8XbX9/BXJ2LlVW5aarokV7AhA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Bruger\\Documents\\.ITU\\3.Semester\\Software_Architecture\\Chirp-1\\Chirp.CLI\\Chirp.CLI.csproj",
+  "projectFilePath": "C:\\Users\\Bruger\\Documents\\.ITU\\3.Semester\\Software_Architecture\\Chirp-1\\chirp.cli\\Chirp.CLI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
